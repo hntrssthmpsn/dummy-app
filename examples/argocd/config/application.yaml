@@ -13,5 +13,7 @@ spec:
     repoURL: https://github.com/hntrssthmpsn/dummy-app.git
     targetRevision: HEAD
   syncPolicy:
+    automated:
+      selfHeal: true
     syncOptions:
       - CreateNamespace=true
